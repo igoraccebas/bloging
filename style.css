@@ -1,0 +1,69 @@
+/*
+Theme Name : TTBA Template
+Theme URI:
+Author: Igor Accebas
+Author URI:
+Description: Theme for custom projects
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/glp-2.0.html
+Tags: reataurrnat, mobile first, resposnisve, pizza
+Text Domain: TTBA Template
+*/
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  margin:0rem;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    color: #777;
+
+}
+
+.clear,
+.clear::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.container {
+  max-width: 110rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sr-text{
+  display:none;
+}
+
+/** HEADER **/
+
+div.logo_main{
+	display: inline-block;
+    float: left;
+}
+
+img.logo{
+	width: 70px;
+}
+
+.menu-bar{
+	height: 9rem;
+	background-color: #00000014;
+}
+
+.menu ul{
+	display: flex;
+    list-style-type: none;
+}
