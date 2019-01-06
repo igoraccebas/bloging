@@ -15,9 +15,16 @@ add_action('wp_enqueue_scripts', 'TTBA_styles');
 
 // Add Menu
 
-function TTBA_menu(){
+function Blog_menu(){
 	register_nav_menus(array(
-		'header-menu' => __('Header Menu', 'TTBA')
+		'header-menu' => __('Header Menu', 'BLOG')
 	));
 }
-add_action('init', 'TTBA_menu');
+add_action('init', 'Blog_menu');
+
+// Removing the admin bar from the head of the website
+
+function remove_admin_login_header() {
+    remove_action('wp_head', '_admin_bar_bump_cb');
+}
+add_action('get_header', 'remove_admin_login_header');
