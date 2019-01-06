@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>La Pizzeria</title>
+    <title>Blog</title>
     <?php wp_head(); ?>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     
@@ -11,16 +11,6 @@
 
 <header class="site-header">
   
-    <div class="top-bar">
-      <div class="container">
-  <div class="top-address">  
-  <p>5538 saint patrick street</p>
-  <div class="top-phone-num">
-  <p>Phone number 514 605 3059</p>
-</div>
-</div>
-</div>
-</div>
 <div class="menu-bar">
   <div class="container">
   <div class="logo_main">
